@@ -7,58 +7,94 @@ BRU:
     - Brussel
     - Brüssel
     - Bruxelles
+  translations:
+    fr: "Bruxelles"
+    nl: "Brussels"
+    de: "Brüssel"
 VAN:
-  name: "Antwerpen (nl)"
+  name: "Antwerpen"
   names:
     - Antwerpen
     - Anvers
+  translations:
+    fr: "Anvers"
+    nl: "Antwerpen"
 VBR:
-  name: "Vlaams Brabant (nl)"
+  name: "Vlaams Brabant"
   names:
     - Brabant-Vlanderen
     - Vlaams-Brabant
     - "Flämisch Brabant"
     - Brabant-Flamand
+  translations:
+    fr: "Brabant Flamand"
+    nl: "Vlaams-Brabant"
 VLI:
-  name: "Limburg (nl)"
+  name: "Limburg"
   names:
     - Limbourg
+  translations:
+    fr: "Limbourg"
+    nl: "Limburg"
 VOV:
-  name: "Oost-Vlaanderen (nl)"
+  name: "Oost-Vlaanderen"
   names:
     - Oos-Vlanderen
     - Oost-Vlaanderen
     - Ost-Flandern
     - Flandre-Orientale
+  translations:
+    fr: "Flandre-Orientale"
+    nl: "Oost-Vlaanderen"
 VWV:
-  name: "West-Vlaanderen (nl)"
+  name: "West-Vlaanderen"
   names:
     - Wes-Vlanderen
     - West-Vlaanderen
     - West-Flandern
     - Flandre-Occidentale
+  translations:
+    fr: "Flandre-Occidentale"
+    nl: "West-Vlaanderen"
 WBR:
-  name: "Brabant Wallon (fr)"
+  name: "Brabant Wallon"
   names:
     - Waals-Brabant
     - "Wallonisch Brabant"
     - "Walloon Brabant"
+  translations:
+    fr: "Brabant Wallon"
+    nl: "Waals-Brabant"
 WHT:
-  name: "Hainaut (fr)"
+  name: "Hainaut"
   names:
     - Henegouwen
     - Hennegau
+  translations:
+    fr: "Hainaut"
+    nl: "Henegouwen"
 WLG:
-  name: "Liège (fr)"
+  name: "Liège"
   names:
     - Luik
     - Lüttich
+  translations:
+    fr: "Liège"
+    nl: "Luik"
+    de: "Lüttich"
 WLX:
-  name: "Luxembourg (fr)"
+  name: "Luxembourg"
   names:
     - Luxembourg
     - Luxemburg
+  translations:
+    fr: "Luxembourg"
+    nl: "Luxemburg"
+    lu: "Lëtzebuerg"
 WNA:
-  name: "Namur (fr)"
+  name: "Namur"
   names:
     - Namen
+  translations:
+    fr: "Namur"
+    nl: "Namen"

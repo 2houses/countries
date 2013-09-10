@@ -56,14 +56,10 @@ class ISO3166::Country
   end
 
   def subdivisions
-    @subdivisions ||= subdivisions? ? YAML.load_file(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml")) : {}
+    @subdivisions ||= ISO3166::Subdivisions.new(alpha2)
   end
 
   alias :states :subdivisions
-
-  def subdivisions?
-    File.exist?(File.join(File.dirname(__FILE__), '..', 'data', 'subdivisions', "#{alpha2}.yaml"))
-  end
 
   def in_eu?
     @data['eu_member'].nil? ? false : @data['eu_member']
@@ -113,7 +109,7 @@ class ISO3166::Country
     protected
     def parse_attributes(attribute, val)
       raise "Invalid attribute name '#{attribute}'" unless AttrReaders.include?(attribute.to_sym)
-      
+
       attributes = Array(attribute.to_s)
       attributes << 'names' if attributes == ['name']
 
